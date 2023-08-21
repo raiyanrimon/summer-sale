@@ -77,11 +77,3 @@ function goHome() {
 
 
 
-function addToCartCalculationEntry() {
-    const cardCalculationEntry = document.getElementById('cart-calculation-entry');
-    const count = cardCalculationEntry.childElementCount;;
-    const li = document.createElement('li');
-    li.classList.add('my-1');
-    li.innerHTML = `${count + 1}. `;
-    cardCalculationEntry.appendChild(li);
-}
